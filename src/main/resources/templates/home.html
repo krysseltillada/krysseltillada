@@ -975,6 +975,10 @@
 					dataType : "json",
 					success : function () {
                         $("#contact-me-header").html("Thank you for sending me a message!");
+                        $("#name").val("");
+                        $("#email").val("");
+                        $("#subject").val("");
+                        $("#message").val("");
                         $submitButton.html("Submit");
 					}
 				});
